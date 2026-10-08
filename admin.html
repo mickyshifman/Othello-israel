@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<title>ניהול – האיגוד הישראלי לאותלו</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html"><span>האיגוד הישראלי לאותלו · ניהול</span></a><nav><a href="index.html">לאתר</a></nav></div></header>
+<main class="wrap" id="top">
+<h1>ניהול האתר</h1>
+<p id="nocfg" hidden class="card">האתר עדיין לא מחובר ל־Firebase. מלאו את firebase-config.js לפי SETUP.md.</p>
+<form id="login"><label>דוא״ל<input type="email" id="em" required autocomplete="username"></label><label>סיסמה<input type="password" id="pw" required autocomplete="current-password"></label><button class="btn" type="submit">כניסה</button><div id="lmsg" aria-live="polite"></div></form>
+<div id="panel" hidden>
+<div class="btns" style="margin-bottom:12px"><button class="btn alt sm" id="imp" type="button">ייבוא נתוני התחלה מ־data.js</button><button class="btn alt sm" id="out" type="button">יציאה</button></div>
+<div id="secs"></div>
+</div>
+</main>
+<script src="data.js"></script><script src="firebase-config.js"></script><script type="module" src="admin.js"></script>
+</body>
+</html>

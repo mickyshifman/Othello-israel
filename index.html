@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>האיגוד הישראלי לאותלו</title>
+<meta name="description" content="האתר של האיגוד הישראלי לאותלו: חוקים, טיפים, חידות, פתיחות, היסטוריה, רייטינג וטורנירים.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#top"><svg viewBox="0 0 200 200" width="46" height="46" aria-hidden="true"><rect width="200" height="200" rx="28" fill="#0038B8"/><path d="M100 16v168M16 100h168" stroke="#fff" stroke-opacity=".35" stroke-width="2"/><circle cx="58" cy="58" r="34" fill="#fff"/><circle cx="142" cy="58" r="34" fill="#111"/><circle cx="58" cy="142" r="34" fill="#111"/><circle cx="142" cy="142" r="34" fill="#fff"/></svg><span>האיגוד הישראלי לאותלו</span></a>
+<nav aria-label="ניווט ראשי"><a href="#upcoming">טורנירים</a><a href="#rules">חוקים</a><a href="#tips">טיפים</a><a href="#openings">פתיחות</a><a href="#history">היסטוריה</a><a href="#rating">רייטינג</a><a href="#tournament">הרשמה</a><a href="#contact">קשר</a><a class="ext" href="https://www.worldothello.org/" target="_blank" rel="noopener">WOF</a></nav>
+</div></header>
+
+<main id="top" class="wrap">
+<div class="hero" style="padding-bottom:40px">
+<div>
+<h1>אותלו בישראל</h1>
+<p class="lead">האיגוד הישראלי לאותלו מארגן את אליפות ישראל, שולח נציגים לאליפויות העולם והאירופה ומחבר בין שחקנים בכל הארץ, מהמתחילים ועד המנוסים.</p>
+<p id="champ" style="font-weight:800"></p>
+<div class="btns"><a class="btn alt" href="https://www.worldothello.org/" target="_blank" rel="noopener">אתר הפדרציה העולמית (WOF)</a></div>
+</div>
+<aside id="upcoming" aria-label="טורנירים מתקרבים"><h2 style="margin:0 0 14px">טורנירים מתקרבים</h2><div class="up" id="up"></div></aside>
+</div>
+
+<section id="rules"><h2>חוקי המשחק</h2>
+<ul>
+<li><b>תחילת המשחק:</b> הלוח מתחיל עם ארבע דיסקיות במרכז – שתי שחורות ושתי לבנות באלכסון.</li>
+<li><b>מהלך תור:</b> השחקן שחור מתחיל, ושחקנים בתורם מניחים דיסקית בצבע שלהם על הלוח.</li>
+<li><b>לכידת כלים:</b> הצבת הדיסקית חייבת לחסום שורה או אלכסון שבהם יש כלי של היריב בין הדיסקית החדשה שהונחה לבין דיסקית קיימת של השחקן.</li>
+<li><b>הפיכת צבעים:</b> כל הדיסקיות של היריב שנלכדו בקו זה הופכות לצבע של השחקן המבצע את המהלך.</li>
+<li><b>סיום המשחק:</b> המשחק נגמר כשאי אפשר לבצע יותר מהלכים. השחקן שיש לו הכי הרבה דיסקיות בצבע שלו על הלוח מנצח.</li>
+</ul></section>
+
+<section id="tips"><h2>טיפים למתחילים</h2>
+<ul>
+<li><b>פינות הן חזקות.</b> אבן בפינה (a1, h1, a8, h8) לא יכולה להיהפך לעולם.</li>
+<li><b>הימנעו מהמשבצות שליד הפינה</b> כל עוד הפינה ריקה, במיוחד מהאלכסון (b2, g2, b7, g7), כי הן עלולות לתת ליריב את הפינה.</li>
+<li><b>ניידות חשובה יותר ממספר האבנים.</b> בתחילת המשחק, להיות עם פחות אבנים ועם יותר מהלכים אפשריים זה בדרך כלל יתרון.</li>
+<li><b>אל תהפכו יותר מדי בשלב מוקדם.</b> מהלכים "שקטים", שהופכים מעט אבנים ולא פותחים מהלכים ליריב, עדיפים.</li>
+<li><b>אל תיתנו ליריב מהלכים בטוחים.</b> לפני כל מהלך שאלו: אילו מהלכים נפתחים עכשיו ליריב?</li>
+<li><b>בסוף המשחק</b> ספרו אבנים, וחשבו מי ישחק את המהלך האחרון בכל אזור ריק.</li>
+</ul></section>
+
+<section id="openings"><h2>פתיחות נפוצות</h2>
+<p>אחרי המהלך הראשון f5 מקובל להמשיך באחת משתי פתיחות: מאונכת (f4) או אלכסונית (d6). הפתיחות הנפוצות נקראות לפי המהלכים שלהן, וכל לוח מראה את המצב אחרי המהלך האחרון (מסומן בצהוב).</p>
+<div class="grid" id="ops"></div></section>
+
+<section id="history"><h2>היסטוריית אליפות ישראל</h2>
+<div class="hero" style="gap:32px">
+<div><h3>אלופי ישראל לפי שנה</h3><div class="tw"><table><thead><tr><th class="n">שנה</th><th>אלוף</th></tr></thead><tbody id="ch"></tbody></table></div></div>
+<div><h3>מספר תארים</h3><div class="tw"><table><thead><tr><th>שחקן</th><th class="n">תארים</th></tr></thead><tbody id="lb"></tbody></table></div></div>
+</div>
+</section>
+
+<section id="rating"><h2>רייטינג ישראלי</h2>
+<p>עודכן לאחרונה: <span id="upd"></span></p>
+<div class="tw"><table><thead><tr><th class="n">#</th><th>שחקן</th><th class="n">רייטינג</th><th></th></tr></thead><tbody id="rt"></tbody></table></div></section>
+
+<section id="tournament"><h2>הרשמה לטורניר</h2>
+<p id="tnone" hidden>אין כרגע טורניר פתוח להרשמה.</p>
+<form id="tform" hidden><label>טורניר<select name="tsel" id="tsel"></select></label><label>שם פרטי<input name="firstName" required maxlength="40" autocomplete="given-name"></label><label>שם משפחה<input name="lastName" required maxlength="40" autocomplete="family-name"></label><button class="btn" type="submit">הרשמה</button><div id="tmsg" aria-live="polite"></div></form></section>
+
+<section id="contact"><h2>יצירת קשר</h2>
+<p style="margin:0 0 6px"><b>איליה שיפמן</b>, יושב ראש האיגוד הישראלי לאותלו</p>
+<p style="margin:0">דוא״ל: <a class="ltr" href="mailto:ilya.shifman@philips.com">ilya.shifman@philips.com</a></p>
+<p style="margin:0">טלפון: <a class="ltr" href="tel:0507613175">0507613175</a></p>
+<p style="margin:22px 0 6px"><b>לאוניד שיפמן</b>, סגן יושב ראש האיגוד הישראלי לאותלו</p>
+<p style="margin:0">דוא״ל: <a class="ltr" href="mailto:leonid.shifman@gmail.com">leonid.shifman@gmail.com</a></p>
+<p style="margin:0">טלפון: <a class="ltr" href="tel:0506401075">0506401075</a></p></section>
+</main>
+
+<footer><svg viewBox="0 0 664 32" width="664" height="32" aria-hidden="true" id="strip"></svg>© האיגוד הישראלי לאותלו · אתר ניסיוני</footer>
+<button id="totop" type="button" aria-label="חזרה לראש העמוד">↑</button>
+<script src="data.js"></script>
+<script src="firebase-config.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
